@@ -14,7 +14,7 @@ colors:
   ui_warn: "#FFB36B"
   prompt: "#FFF1F7"
   input_rule: "#C85A8A"
-  response_border: "#FF8FC7"
+  response_border: "#7FD6E8"
   session_label: "#E07AA8"
   session_border: "#8E6A78"
 
