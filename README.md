@@ -1,4 +1,4 @@
-<img width="1698" height="1245" alt="image" src="https://github.com/user-attachments/assets/e0245795-4990-4d54-93fa-8788f47dc3cc" />
+<img width="1700" height="990" alt="image" src="https://github.com/user-attachments/assets/3d67301c-2e9b-4633-b954-9a752abb1aa2" />
 
 # Aphrodite Skin for Hermes Agent
 
