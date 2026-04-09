@@ -7,6 +7,8 @@ A minimal public repository for the Aphrodite pink TUI skin.
 Included:
 - `docs/skins/aphrodite.yaml` — the skin file
 - `scripts/install-aphrodite.sh` — one-line installer
+- `patches/hermes-streaming-response-border.patch` — optional Hermes CLI patch for the full streaming cyan reply border effect
+- `docs/hermes-patch.md` — patch instructions
 
 ## Install
 
@@ -33,6 +35,20 @@ display:
 mkdir -p ~/.hermes/skins
 curl -fsSL https://raw.githubusercontent.com/oqpsk/hermes-skin-aphrodite/main/docs/skins/aphrodite.yaml -o ~/.hermes/skins/aphrodite.yaml
 ```
+
+## Optional Hermes code patch
+
+If you want the screenshot-perfect streaming reply border effect, also apply the optional Hermes patch:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/oqpsk/hermes-skin-aphrodite/main/patches/hermes-streaming-response-border.patch -o /tmp/hermes-streaming-response-border.patch
+cd /path/to/hermes-agent
+git apply /tmp/hermes-streaming-response-border.patch
+```
+
+Then restart Hermes.
+
+More detail: `docs/hermes-patch.md`
 
 ## Notes
 
